@@ -1,0 +1,74 @@
+# Maven
+target/
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# Logs and Temp Files
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+*~
+hs_err_pid*
+
+# OS-Specific Files (MacBook)
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Java and Build Artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Sensitive Files
+application.properties
+application.yml
+.env
+
+# Lombok
+.lombok/
+
+# Swagger
+swagger-ui/
+
+# Test Output
+/test-output/
+
+# Package-lock files (if NodeJS is used in the project)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code (if used alongside IntelliJ)
+.vscode/
+
+# Docker (if applicable)
+docker-compose.override.yml
+*.env
+
+# Cache
+*.class
+*.cache
+*.snap
+*.gz
