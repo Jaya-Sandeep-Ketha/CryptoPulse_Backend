@@ -9,4 +9,9 @@ public class HomeController {
     public String home(){
         return "Welcome to CryptoPulse!";
     }
+
+    @GetMapping("/api/test")
+    public String secure(){
+        return "Welcome to CryptoPulse Secure!";
+    }
 }
