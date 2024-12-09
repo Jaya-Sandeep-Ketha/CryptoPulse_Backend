@@ -1,6 +1,7 @@
 package com.sandy.cryptopulse.CryptoPulse.model;
 
 import com.sandy.cryptopulse.CryptoPulse.domain.VerificationType;
+import jakarta.persistence.Entity;
 import lombok.Data;
 
 @Data
