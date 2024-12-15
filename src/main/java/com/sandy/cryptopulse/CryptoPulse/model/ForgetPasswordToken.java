@@ -2,8 +2,10 @@ package com.sandy.cryptopulse.CryptoPulse.model;
 
 import com.sandy.cryptopulse.CryptoPulse.domain.VerificationType;
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
+@Data
 public class ForgetPasswordToken {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -54,16 +56,5 @@ public class ForgetPasswordToken {
 
     public void setSendTo(String sendTo) {
         this.sendTo = sendTo;
-    }
-
-    @Override
-    public String toString() {
-        return "ForgetPasswordToken{" +
-                "id=" + id +
-                ", user=" + user +
-                ", otp='" + otp + '\'' +
-                ", verificationType=" + verificationType +
-                ", sendTo='" + sendTo + '\'' +
-                '}';
     }
 }

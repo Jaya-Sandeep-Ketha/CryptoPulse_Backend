@@ -4,7 +4,6 @@ import com.sandy.cryptopulse.CryptoPulse.model.Coin;
 
 import java.util.List;
 
-@Se
 public interface CoinService {
     List<Coin> getCoinList(int page);
     String getMarketChart(String coinId, int days);

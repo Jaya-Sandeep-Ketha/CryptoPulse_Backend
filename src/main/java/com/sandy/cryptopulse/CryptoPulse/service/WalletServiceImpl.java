@@ -1,5 +1,6 @@
 package com.sandy.cryptopulse.CryptoPulse.service;
 
+import com.sandy.cryptopulse.CryptoPulse.domain.OrderType;
 import com.sandy.cryptopulse.CryptoPulse.model.Order;
 import com.sandy.cryptopulse.CryptoPulse.model.User;
 import com.sandy.cryptopulse.CryptoPulse.model.Wallet;
@@ -21,6 +22,7 @@ public class WalletServiceImpl implements WalletService {
         if(wallet == null) {
             wallet = new Wallet();
             wallet.setUser(user);
+            walletRepository.save(wallet);
         }
         return wallet;
     }
@@ -60,9 +62,20 @@ public class WalletServiceImpl implements WalletService {
     }
 
     @Override
-    public Wallet payOrderPayment(Order order, User user) {
+    public Wallet payOrderPayment(Order order, User user) throws Exception {
         Wallet wallet = getUserWallet(user);
-        if(order.getOrder)
-        return null;
+        if(order.getOrderType().equals(OrderType.BUY)){
+            BigDecimal newBalance = wallet.getBalance().subtract(order.getPrice());
+            if(newBalance.compareTo(order.getPrice()) < 0) {
+                throw new Exception("Insufficient funds for this transaction");
+            }
+            wallet.setBalance(newBalance);
+        }
+        else{
+            BigDecimal newBalance = wallet.getBalance().add(order.getPrice());
+            wallet.setBalance(newBalance);
+        }
+        walletRepository.save(wallet);
+        return wallet;
     }
 }

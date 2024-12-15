@@ -4,10 +4,12 @@ import com.sandy.cryptopulse.CryptoPulse.model.TwoFactorOTP;
 import com.sandy.cryptopulse.CryptoPulse.model.User;
 import com.sandy.cryptopulse.CryptoPulse.repository.TwoFactorOtpRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 import java.util.UUID;
 
+@Service
 public class TwoFactorOtpServiceImpl implements TwoFactorOtpService {
     @Autowired
     private TwoFactorOtpRepository twoFactorOtpRepository;
@@ -25,7 +27,7 @@ public class TwoFactorOtpServiceImpl implements TwoFactorOtpService {
     }
 
     @Override
-    public TwoFactorOTP findByUser(String userId) {
+    public TwoFactorOTP findByUser(Long userId) {
         return twoFactorOtpRepository.findByUserId(userId);
     }
 

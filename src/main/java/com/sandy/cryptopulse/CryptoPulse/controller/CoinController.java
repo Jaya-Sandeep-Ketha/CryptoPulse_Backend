@@ -8,14 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Repository
+@RestController
 @RequestMapping("/coins")
 public class CoinController {
     @Autowired
@@ -24,7 +21,7 @@ public class CoinController {
     private ObjectMapper objectMapper;
 
     @GetMapping
-    ResponseEntity<List<Coin>>getCoinList(@RequestParam("page") int page) throws Exception{
+    ResponseEntity<List<Coin>>getCoinList(@RequestParam(required = false, name="page") int page) throws Exception{
         List<Coin> coinList = coinService.getCoinList(page);
         return new ResponseEntity<>(coinList, HttpStatus.ACCEPTED);
     }
@@ -50,7 +47,7 @@ public class CoinController {
         return ResponseEntity.ok(node);
     }
 
-    @GetMapping("/top50")
+    @GetMapping("/trending")
     ResponseEntity<JsonNode>getTrendingCoin() throws Exception{
         String res = coinService.getTrendingCoins();
         JsonNode node = objectMapper.readTree(res);

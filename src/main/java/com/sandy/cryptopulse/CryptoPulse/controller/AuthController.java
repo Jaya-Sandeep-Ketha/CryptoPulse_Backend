@@ -3,11 +3,13 @@ package com.sandy.cryptopulse.CryptoPulse.controller;
 import com.sandy.cryptopulse.CryptoPulse.config.JwtProvider;
 import com.sandy.cryptopulse.CryptoPulse.model.TwoFactorOTP;
 import com.sandy.cryptopulse.CryptoPulse.model.User;
+import com.sandy.cryptopulse.CryptoPulse.model.WatchList;
 import com.sandy.cryptopulse.CryptoPulse.repository.UserRepository;
 import com.sandy.cryptopulse.CryptoPulse.response.AuthResponse;
 import com.sandy.cryptopulse.CryptoPulse.service.CustomUserDetailsService;
 import com.sandy.cryptopulse.CryptoPulse.service.EmailService;
 import com.sandy.cryptopulse.CryptoPulse.service.TwoFactorOtpService;
+import com.sandy.cryptopulse.CryptoPulse.service.WatchListService;
 import com.sandy.cryptopulse.CryptoPulse.utils.OtpUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -35,6 +37,9 @@ public class AuthController {
     @Autowired
     private EmailService emailService;
 
+    @Autowired
+    private WatchListService watchListService;
+
     @PostMapping("/signup")
     private ResponseEntity<AuthResponse> register(@RequestBody User user) throws Exception {
         User isEmailExits = userRepository.findByEmail(user.getEmail());
@@ -49,6 +54,7 @@ public class AuthController {
 
         User savedUser = userRepository.save(newUser);
 
+        watchListService.createWatchList(savedUser);
         Authentication auth = new UsernamePasswordAuthenticationToken(user.getEmail(), user.getPassword());
         SecurityContextHolder.getContext().setAuthentication(auth);
         String jwt = JwtProvider.generateToken(auth);
@@ -74,7 +80,7 @@ public class AuthController {
             res.setMessage("Two Factor auth is Enabled");
             res.setTwoFactorAuthEnabled(true);
             String otp = OtpUtils.generateOtp();
-            TwoFactorOTP oldTwoFactorOTP = twoFactorOtpService.findByUser(String.valueOf(authUser.getId()));
+            TwoFactorOTP oldTwoFactorOTP = twoFactorOtpService.findByUser(authUser.getId());
             if(oldTwoFactorOTP != null){
                 twoFactorOtpService.deleteTwoFactorOtp(oldTwoFactorOTP);
             }

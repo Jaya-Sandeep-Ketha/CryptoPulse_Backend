@@ -3,11 +3,12 @@ package com.sandy.cryptopulse.CryptoPulse.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
-public class Wallet {
+public class WatchList {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -15,7 +16,8 @@ public class Wallet {
     @OneToOne
     private User user;
 
-    private BigDecimal balance=BigDecimal.ZERO;
+    @ManyToMany
+    private List<Coin> coins = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -33,11 +35,11 @@ public class Wallet {
         this.user = user;
     }
 
-    public BigDecimal getBalance() {
-        return balance;
+    public List<Coin> getCoins() {
+        return coins;
     }
 
-    public void setBalance(BigDecimal balance) {
-        this.balance = balance;
+    public void setCoins(List<Coin> coins) {
+        this.coins = coins;
     }
 }
