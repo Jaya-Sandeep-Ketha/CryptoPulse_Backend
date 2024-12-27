@@ -14,20 +14,15 @@ import lombok.*;
 public class User {
 
     // Getters and setters (if not using Lombok)
-    @Getter
-    @Setter
     @Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
-	@Getter
-    @Setter
+
     private String fullName;
-	@Getter
-    @Setter
+
     private String email;
-	@Getter
-    @Setter
+
     private String mobile;
 
 	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
@@ -44,4 +39,83 @@ public class User {
 
 	private USER_ROLE role= USER_ROLE.ROLE_USER;
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public UserStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(UserStatus status) {
+		this.status = status;
+	}
+
+	public boolean isVerified() {
+		return isVerified;
+	}
+
+	public void setVerified(boolean verified) {
+		isVerified = verified;
+	}
+
+	public TwoFactorAuth getTwoFactorAuth() {
+		return twoFactorAuth;
+	}
+
+	public void setTwoFactorAuth(TwoFactorAuth twoFactorAuth) {
+		this.twoFactorAuth = twoFactorAuth;
+	}
+
+	public String getPicture() {
+		return picture;
+	}
+
+	public void setPicture(String picture) {
+		this.picture = picture;
+	}
+
+	public USER_ROLE getRole() {
+		return role;
+	}
+
+	public void setRole(USER_ROLE role) {
+		this.role = role;
+	}
 }

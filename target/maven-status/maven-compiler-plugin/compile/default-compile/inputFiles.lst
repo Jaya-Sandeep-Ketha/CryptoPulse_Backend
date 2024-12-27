@@ -1,104 +1,107 @@
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\Withdrawal.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\domain\WalletTransactionType.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\OrderController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\response\FunctionResponse.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\utils\OtpUtils.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\OrderServiceImplementation.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\OrderItemRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\ChatBotService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\exception\WalletException.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\exception\UserException.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\config\AppConfig.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\WatchlistService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\WalletTransactionService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\Watchlist.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\VerificationRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\domain\UserStatus.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\PaymentDetailsServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\ChatBotServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\PaymentDetailsService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\WalletService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\PaymentServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\TreadingPlateformApplication.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\PaymentService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\WalleteServiceImplementation.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\OrderService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\WithdrawalServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\UserController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\User.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\request\PromptBody.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\ForgotPasswordToken.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\ForgotPasswordServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\TwoFactorAuth.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\request\ResetPasswordRequest.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\WalletTransactionRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\CoinRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\ForgotPasswordRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\CustomeUserServiceImplementation.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\exception\ErrorDetails.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\WithdrawalRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\WalletTransactionServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\WalletTransaction.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\AssetServiceImplementation.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\WatchlistRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\domain\OrderStatus.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\VerificationServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\PaymentController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\CryptoCurrencyService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\PaymentDetailsRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\AssetsRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\OrderRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\CoinController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\request\UpdatePasswordRequest.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\Asset.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\CoinServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\exception\GlobelExeptions.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\TwoFactorOtpService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\response\PaymentResponse.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\response\AuthResponse.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\ForgotPasswordService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\AssetController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\AuthController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\CryptoCurrency.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\MarketChartData.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\PaymentDetails.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\WalletRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\WithdrawalController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\Order.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\VerificationService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\CoinDTO.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\WithdrawalService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\config\JwtConstant.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\config\JwtProvider.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\UserService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\Notification.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\CoinService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\domain\WithdrawalStatus.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\EmailService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\domain\PaymentMethod.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\AssetService.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\TwoFactorOTP.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\response\ApiResponse.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\Coin.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\TwoFactorOtpServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\request\CreateOrderRequest.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\VerificationController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\domain\OrderType.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\UserServiceImplementation.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\service\WatchlistServiceImpl.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\exception\OrderException.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\VerificationCode.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\OrderItem.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\ChatBotController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\Wallet.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\TwoFactorOtpRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\WatchlistController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\HomeController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\config\JwtTokenValidator.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\domain\VerificationType.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\request\LoginRequest.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\TreadingHistory.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\PaymentDetailsController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\controller\WalletController.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\repository\UserRepository.java
-D:\Projects\Java Full Stack\Treading Plateform\treading-plateform\src\main\java\com\zosh\model\Address.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/WithdrawalController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/exception/UserException.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/Coin.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/UserServiceImplementation.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/ChatBotServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/request/UpdatePasswordRequest.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/ChatBotService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/VerificationCode.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/response/ApiResponse.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/response/PaymentResponse.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/WalletTransactionRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/Withdrawal.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/exception/GlobelExeptions.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/PaymentDetailsService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/VerificationType.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/request/CreateOrderRequest.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/WithdrawalServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/CustomeUserServiceImplementation.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/TreadingHistory.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/USER_ROLE.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/WalletTransactionService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/CoinRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/WithdrawalRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/TwoFactorOtpRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/Wallet.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/WalleteServiceImplementation.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/HomeController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/VerificationController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/config/JwtTokenValidator.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/Demo.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/ForgotPasswordServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/PaymentDetailsRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/TwoFactorOTP.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/PaymentOrderStatus.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/utils/OtpUtils.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/PaymentDetailsController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/TwoFactorOtpService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/request/PromptBody.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/OrderStatus.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/TwoFactorOtpServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/PaymentOrderRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/WalletRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/config/JwtProvider.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/WatchlistController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/VerificationServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/Asset.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/ForgotPasswordToken.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/PaymentMethod.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/OrderController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/User.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/WithdrawalStatus.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/OrderItem.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/OrderItemRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/VerificationService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/CoinService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/OrderType.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/AssetServiceImplementation.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/PaymentOrder.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/TwoFactorAuth.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/exception/ErrorDetails.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/OrderRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/AssetController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/DataInitializationComponent.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/PaymentDetails.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/ForgotPasswordRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/WalletController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/TreadingPlateformApplication.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/UserController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/OrderServiceImplementation.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/WalletTransaction.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/VerificationRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/UserService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/WatchlistServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/PaymentService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/request/LoginRequest.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/exception/WalletException.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/Notification.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/CoinServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/WalletService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/UserRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/MarketChartData.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/AssetService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/EmailService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/AssetsRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/AuthController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/response/AuthResponse.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/exception/OrderException.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/request/ResetPasswordRequest.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/PaymentController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/PaymentServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/config/AppConfig.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/PaymentDetailsServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/repository/WatchlistRepository.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/WithdrawalService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/WalletTransactionServiceImpl.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/CoinController.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/OrderService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/WalletTransactionType.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/Watchlist.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/domain/UserStatus.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/response/FunctionResponse.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/CoinDTO.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/config/JwtConstant.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/ForgotPasswordService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/service/WatchlistService.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/model/Order.java
+/Users/sandy/Documents/Personal/Projects/Trading Platform/CryptoPulse_Backend/src/main/java/com/sandy/controller/ChatBotController.java
