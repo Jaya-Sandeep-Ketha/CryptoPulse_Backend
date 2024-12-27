@@ -1,24 +1,68 @@
-# Compiled class file
-*.class
+# Maven
+target/
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-# Log file
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# Logs and Temp Files
 *.log
+logs/
+*.tmp
+*.swp
+*.swo
+*~
+hs_err_pid*
 
-# BlueJ files
-*.ctxt
+# OS-Specific Files (MacBook)
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Java and Build Artifacts
+*.class
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Sensitive Files
+application.yml
+.env
+
+# Lombok
+.lombok/
+
+# Swagger
+swagger-ui/
+
+# Test Output
+/test-output/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code (if used alongside IntelliJ)
+.vscode/
+
+# Docker (if applicable)
+docker-compose.override.yml
+*.env
+
+# Cache
+*.class
+*.cache
+*.snap
+*.gz
