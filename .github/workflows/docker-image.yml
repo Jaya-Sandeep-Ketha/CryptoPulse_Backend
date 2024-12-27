@@ -45,4 +45,4 @@ jobs:
     # Step 7: Push Docker image to DockerHub
     - name: Push Docker image
       run: |
-        docker push your-dockerhub-username/springboot-app:${{ github.sha }}
+        docker push ${{ secrets.DOCKER_USERNAME }}/springboot-app:${{ github.sha }}
